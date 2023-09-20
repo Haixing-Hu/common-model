@@ -8,9 +8,9 @@
 ////////////////////////////////////////////////////////////////////////////////
 package ltd.qubit.commons.model.util;
 
-import ltd.qubit.commons.annotation.NoAutoTest;
-
 import org.slf4j.Logger;
+
+import ltd.qubit.commons.annotation.NoAutoTest;
 
 /**
  * This interface indicates that an object has a logger.

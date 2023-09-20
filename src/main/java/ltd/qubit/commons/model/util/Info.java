@@ -239,16 +239,6 @@ public class Info implements Serializable, Identifiable, Deletable, Emptyful,
     assign(other);
   }
 
-  /**
-   * Copy constructor.
-   *
-   * @param other
-   *     The other {@link StatefulInfo} object to be copied.
-   */
-  public Info(final StatefulInfo other) {
-    assign(other);
-  }
-
   @Override
   public Long getId() {
     return id;
@@ -292,13 +282,6 @@ public class Info implements Serializable, Identifiable, Deletable, Emptyful,
     code = other.code;
     name = other.name;
     deleteTime = other.deleteTime;
-  }
-
-  public void assign(final StatefulInfo other) {
-    id = other.getId();
-    code = other.getCode();
-    name = other.getName();
-    deleteTime = other.getDeleteTime();
   }
 
   @Override

@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-package ltd.qubit.commons.model;
+package ltd.qubit.commons.model.util;
 
 /**
  * This interface represents an entity class with a name property.

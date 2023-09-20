@@ -11,8 +11,6 @@ package ltd.qubit.commons.model.util;
 import java.time.Instant;
 
 import ltd.qubit.commons.annotation.Computed;
-import ltd.qubit.commons.model.WithCode;
-import ltd.qubit.commons.model.WithName;
 
 /**
  * This interface represents the entity class with basic information.
