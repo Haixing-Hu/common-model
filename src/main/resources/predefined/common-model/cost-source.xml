@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了医疗费用来源类别代码表
+  ~
+  ~   《WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用》
+  ~    表2 CV07.10.003 医疗费用来源类别代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+<dict>
+  <code>cost_source</code>
+  <name>医疗费用来源类别代码表</name>
+  <description>医疗费用来源类别代码规定了医疗费用支付方式的类别代码。采用2位数字顺序代码，从"01"开始编码，按升序排列。</description>
+  <standard-doc>WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用</standard-doc>
+  <standard-code>CV07.10.003</standard-code>
+  <entries>
+    <entry>
+      <code>01</code>
+      <name>城镇职工基本医疗保险</name>
+    </entry>
+    <entry>
+      <code>02</code>
+      <name>城镇居民基本医疗保险</name>
+    </entry>
+    <entry>
+      <code>03</code>
+      <name>新型农村合作医疗</name>
+    </entry>
+    <entry>
+      <code>04</code>
+      <name>贫困救助</name>
+    </entry>
+    <entry>
+      <code>05</code>
+      <name>商业医疗保险</name>
+    </entry>
+    <entry>
+      <code>06</code>
+      <name>全公费</name>
+    </entry>
+    <entry>
+      <code>07</code>
+      <name>全自费</name>
+    </entry>
+    <entry>
+      <code>99</code>
+      <name>其他</name>
+    </entry>
+  </entries>
+</dict>
+</dicts>

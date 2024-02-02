@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了医疗机构等级分类代码表
+  ~
+  ~   《江苏省医疗服务监管系统 接入规范 (v0.8)》
+  ~    8.22 医院等级(等)分类代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<dicts>
+  <dict>
+    <code>hospital_grade</code>
+    <name>医院等级(等)分类代码表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范V1.12</standard-doc>
+    <standard-code>8.22</standard-code>
+    <entries>
+      <entry>
+        <code>1</code>
+        <name>特等</name>
+      </entry>
+      <entry>
+        <code>2</code>
+        <name>甲等</name>
+      </entry>
+      <entry>
+        <code>3</code>
+        <name>乙等</name>
+      </entry>
+      <entry>
+        <code>4</code>
+        <name>丙等</name>
+      </entry>
+      <entry>
+        <code>9</code>
+        <name>未评</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

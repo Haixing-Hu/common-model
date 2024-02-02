@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了学历代码表
+  ~
+  ~   《GB/T 4658 学历代码》
+  ~    表1 学历代码
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+<dict>
+  <code>education</code>
+  <name>学历代码表</name>
+  <standard-doc>GB/T 4658 学历代码</standard-doc>
+  <standard-code>表1</standard-code>
+  <entries>
+    <entry>
+      <code>10</code>
+      <name>研究生教育</name>
+    </entry>
+      <entry>
+        <code>11</code>
+        <name>博士研究生毕业</name>
+      </entry>
+      <entry>
+        <code>12</code>
+        <name>博士研究生结业</name>
+      </entry>
+      <entry>
+        <code>13</code>
+        <name>博士研究生肆业</name>
+      </entry>
+      <entry>
+        <code>14</code>
+        <name>硕士研究生毕业</name>
+      </entry>
+      <entry>
+        <code>15</code>
+        <name>硕士研究生结业</name>
+      </entry>
+      <entry>
+        <code>16</code>
+        <name>硕士研究生肆业</name>
+      </entry>
+      <entry>
+        <code>17</code>
+        <name>研究生班毕业</name>
+        <comment>研究生班是我国研究生教育中属于硕士生层次的一种非导师制的方式，其招生和入学条件与硕士生相似，学制两年或一年半，完成全部学习项目并经考核合格者，发给研究生班毕业证书（研究生课程班不在此列）。</comment>
+      </entry>
+      <entry>
+        <code>18</code>
+        <name>研究生班结业</name>
+      </entry>
+      <entry>
+        <code>19</code>
+        <name>研究生班肆业</name>
+      </entry>
+
+    <entry>
+      <code>20</code>
+      <name>大学本科</name>
+    </entry>
+      <entry>
+        <code>21</code>
+        <name>大学本科毕业</name>
+      </entry>
+      <entry>
+        <code>22</code>
+        <name>大学本科结业</name>
+      </entry>
+      <entry>
+        <code>23</code>
+        <name>大学本科肆业</name>
+      </entry>
+      <entry>
+        <code>28</code>
+        <name>大学普通班毕业</name>
+        <comment>是指1970年至1976年进入普通高校学习的毕业生</comment>
+      </entry>
+
+
+    <entry>
+      <code>30</code>
+      <name>专科教育</name>
+      <comment>包括高等专科、高等职业教育</comment>
+    </entry>
+      <entry>
+        <code>31</code>
+        <name>大学专科毕业</name>
+      </entry>
+      <entry>
+        <code>32</code>
+        <name>大学专科结业</name>
+      </entry>
+      <entry>
+        <code>33</code>
+        <name>大学专科肆业</name>
+      </entry>
+
+
+    <entry>
+      <code>40</code>
+      <name>中等职业教育</name>
+      <comment>包括中等师范学校教育</comment>
+    </entry>
+      <entry>
+        <code>41</code>
+        <name>中等专科毕业</name>
+      </entry>
+      <entry>
+        <code>42</code>
+        <name>中等专科结业</name>
+      </entry>
+      <entry>
+        <code>43</code>
+        <name>中等专科肆业</name>
+      </entry>
+      <entry>
+        <code>44</code>
+        <name>职业高中毕业</name>
+      </entry>
+      <entry>
+        <code>45</code>
+        <name>职业高中结业</name>
+      </entry>
+      <entry>
+        <code>46</code>
+        <name>职业高中肆业</name>
+      </entry>
+      <entry>
+        <code>47</code>
+        <name>技工学校毕业</name>
+      </entry>
+      <entry>
+        <code>48</code>
+        <name>技工学校结业</name>
+      </entry>
+      <entry>
+        <code>49</code>
+        <name>技工学校肆业</name>
+      </entry>
+
+
+    <entry>
+      <code>60</code>
+      <name>普通高级中学教育</name>
+    </entry>
+      <entry>
+        <code>61</code>
+        <name>普通高中毕业</name>
+      </entry>
+      <entry>
+        <code>62</code>
+        <name>普通高中结业</name>
+      </entry>
+      <entry>
+        <code>63</code>
+        <name>普通高中肆业</name>
+      </entry>
+
+    <entry>
+      <code>70</code>
+      <name>初级中学教育</name>
+    </entry>
+      <entry>
+        <code>71</code>
+        <name>初中毕业</name>
+      </entry>
+      <entry>
+        <code>72</code>
+        <name>初中结业</name>
+      </entry>
+      <entry>
+        <code>73</code>
+        <name>初中肆业</name>
+      </entry>
+
+    <entry>
+      <code>80</code>
+      <name>小学教育</name>
+    </entry>
+      <entry>
+        <code>81</code>
+        <name>小学毕业</name>
+      </entry>
+      <entry>
+        <code>82</code>
+        <name>小学结业</name>
+      </entry>
+      <entry>
+        <code>83</code>
+        <name>小学肆业</name>
+      </entry>
+
+    <entry>
+      <code>90</code>
+      <name>其他</name>
+    </entry>
+  </entries>
+</dict>
+</dicts>

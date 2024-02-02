@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了中药用药频次代码表
+  ~
+  ~   《江苏省医疗服务监管系统接入规范V1.12》
+  ~    8.15 江苏中药用药频次代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>dosage_frequency_tcm</code>
+    <name>中药用药频次代码表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范V1.12</standard-doc>
+    <standard-code>8.15</standard-code>
+    <entries>
+      <entry>
+        <code>01</code>
+        <name>每日一剂</name>
+      </entry>
+      <entry>
+        <code>02</code>
+        <name>每日两剂</name>
+      </entry>
+      <entry>
+        <code>03</code>
+        <name>每日三剂</name>
+      </entry>
+      <entry>
+        <code>04</code>
+        <name>每日一次</name>
+      </entry>
+      <entry>
+        <code>05</code>
+        <name>每日两次</name>
+      </entry>
+      <entry>
+        <code>06</code>
+        <name>每日三次</name>
+      </entry>
+      <entry>
+        <code>07</code>
+        <name>每日多次</name>
+      </entry>
+      <entry>
+        <code>99</code>
+        <name>其他</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

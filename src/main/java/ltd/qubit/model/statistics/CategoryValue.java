@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//    Copyright (c) 2022 - 2024.
+//    Haixing Hu, Qubit Co. Ltd.
+//
+//    All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+package ltd.qubit.model.statistics;
+
+import java.math.BigDecimal;
+
+public class CategoryValue {
+
+  private String name;
+
+  private BigDecimal value;
+
+
+}

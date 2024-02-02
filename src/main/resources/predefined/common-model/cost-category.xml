@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了门诊费用分类代码表
+  ~
+  ~   《WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用》
+  ~    表1 CV07.10.001 门诊费用分类代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+<dict>
+  <code>cost_category</code>
+  <name>门诊费用分类代码表</name>
+  <description>门诊费用分类代码表规定了门诊就医者因门诊就医产生的费用类别的代码。采用2位数字顺序代码，从"01"开始编码，按升序排列。</description>
+  <standard-doc>WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用</standard-doc>
+  <standard-code>CV07.10.001</standard-code>
+  <entries>
+    <entry>
+      <code>01</code>
+      <name>西药</name>
+      <description>使用西药的费用</description>
+    </entry>
+    <entry>
+      <code>02</code>
+      <name>中成药</name>
+      <description>使用中成药的费用</description>
+    </entry>
+    <entry>
+      <code>03</code>
+      <name>中草药</name>
+      <description>使用中草药的费用</description>
+    </entry>
+    <entry>
+      <code>04</code>
+      <name>诊查费</name>
+      <description>诊断及观察费用</description>
+    </entry>
+    <entry>
+      <code>05</code>
+      <name>检查费</name>
+      <description>不含化验费、放射费</description>
+    </entry>
+    <entry>
+      <code>06</code>
+      <name>化验费</name>
+      <description>化验检查费用</description>
+    </entry>
+    <entry>
+      <code>07</code>
+      <name>放射费</name>
+      <description>用于放射检查及治疗的费用</description>
+    </entry>
+    <entry>
+      <code>08</code>
+      <name>治疗费</name>
+      <description>各种治疗的费用</description>
+    </entry>
+    <entry>
+      <code>09</code>
+      <name>手术费</name>
+      <description>用于手术操作的费用</description>
+    </entry>
+    <entry>
+      <code>99</code>
+      <name>其他</name>
+      <description>无法按上述类别归类的费用</description>
+    </entry>
+  </entries>
+</dict>
+</dicts>

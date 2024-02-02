@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了医疗费用结算方式代码表
+  ~
+  ~   《WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用》
+  ~    表3 CV07.10.004 医疗费用结算方式代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+<dict>
+  <code>settling_method</code>
+  <name>医疗费用结算方式代码表</name>
+  <description>医疗费用结算方式代码规定了门诊就医和住院所产生的费用的结算方式代码。采用2位数字顺序代码，从"01"开始编码，按升序排列。</description>
+  <standard-doc>WS 364.13-2011 卫生信息数据元值域代码 第13部分：卫生费用</standard-doc>
+  <standard-code>CV07.10.004</standard-code>
+  <entries>
+    <entry>
+      <code>01</code>
+      <name>现金</name>
+      <description>支付现金</description>
+    </entry>
+    <entry>
+      <code>02</code>
+      <name>支票</name>
+      <description>以支票支付</description>
+    </entry>
+    <entry>
+      <code>03</code>
+      <name>汇款存款</name>
+      <description>以汇款、存款支付</description>
+    </entry>
+    <entry>
+      <code>04</code>
+      <name>内部转账</name>
+      <description>以内部转账方式支付</description>
+    </entry>
+    <entry>
+      <code>05</code>
+      <name>单位记账</name>
+      <description>以单位记账方式支付</description>
+    </entry>
+    <entry>
+      <code>06</code>
+      <name>账户金</name>
+      <description>以账户金支付</description>
+    </entry>
+    <entry>
+      <code>07</code>
+      <name>统筹金</name>
+      <description>以统筹金支付</description>
+    </entry>
+    <entry>
+      <code>08</code>
+      <name>银行卡</name>
+      <description>以电子现金（IC卡）支付</description>
+    </entry>
+    <entry>
+      <code>99</code>
+      <name>其他</name>
+    </entry>
+  </entries>
+</dict>
+</dicts>

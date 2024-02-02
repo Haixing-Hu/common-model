@@ -1,0 +1,38 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//    Copyright (c) 2022 - 2024.
+//    Haixing Hu, Qubit Co. Ltd.
+//
+//    All rights reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+package ltd.qubit.model.util;
+
+import ltd.qubit.model.person.UserInfo;
+
+import javax.annotation.Nullable;
+
+/**
+ * 此接口表示实体类记录了创建者。
+ *
+ * @author 胡海星
+ */
+public interface WithCreator {
+
+  /**
+   * 获取当前对象的创建者的基本信息。
+   *
+   * @return
+   *     当前对象的创建者的基本信息，若为{@code null}则表示当前对象没有创建者。
+   */
+  @Nullable
+  UserInfo getCreator();
+
+  /**
+   * 设置当前对象的创建者的基本信息。
+   *
+   * @param creator
+   *     待设置的当前对象的创建者的新的基本信息，若为{@code null}则表示当前对象没有创建者。
+   */
+  void setCreator(@Nullable UserInfo creator);
+}

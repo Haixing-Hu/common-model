@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了卫生技术人员专业技术职务代码
+  ~
+  ~   《GB/T 8561-2001 专业技术职务代码》
+  ~    表1 专业技术职务代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>doctor_job_title</code>
+    <name>卫生技术人员专业技术职务代码</name>
+    <standard-doc>GB/T 8561-2001 专业技术职务代码</standard-doc>
+    <standard-code>表1</standard-code>
+    <entries>
+      <entry>
+        <code>230</code>
+        <name>卫生技术人员（医疗）</name>
+      </entry>
+      <entry>
+        <code>231</code>
+        <name>主任医师</name>
+        <parent>
+          <code>230</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>232</code>
+        <name>副主任医师</name>
+        <parent>
+          <code>230</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>233</code>
+        <name>主治医师</name>
+        <parent>
+          <code>230</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>234</code>
+        <name>医师</name>
+        <parent>
+          <code>230</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>235</code>
+        <name>医士</name>
+        <parent>
+          <code>230</code>
+        </parent>
+      </entry>
+
+      <entry>
+        <code>240</code>
+        <name>卫生技术人员（药剂）</name>
+      </entry>
+      <entry>
+        <code>241</code>
+        <name>主任药师</name>
+        <parent>
+          <code>240</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>242</code>
+        <name>副主任药师</name>
+        <parent>
+          <code>240</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>243</code>
+        <name>主管药师</name>
+        <parent>
+          <code>240</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>244</code>
+        <name>药师</name>
+        <parent>
+          <code>240</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>245</code>
+        <name>药士</name>
+        <parent>
+          <code>240</code>
+        </parent>
+      </entry>
+
+      <entry>
+        <code>250</code>
+        <name>卫生技术人员（护理）</name>
+      </entry>
+      <entry>
+        <code>251</code>
+        <name>主任护师</name>
+        <parent>
+          <code>250</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>252</code>
+        <name>副主任护师</name>
+        <parent>
+          <code>250</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>253</code>
+        <name>主管护师</name>
+        <parent>
+          <code>250</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>254</code>
+        <name>护师</name>
+        <parent>
+          <code>250</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>255</code>
+        <name>护士</name>
+        <parent>
+          <code>250</code>
+        </parent>
+      </entry>
+
+      <entry>
+        <code>260</code>
+        <name>卫生技术人员（技师）</name>
+      </entry>
+      <entry>
+        <code>261</code>
+        <name>主任技师</name>
+        <parent>
+          <code>260</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>262</code>
+        <name>副主任技师</name>
+        <parent>
+          <code>260</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>263</code>
+        <name>主管技师</name>
+        <parent>
+          <code>260</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>264</code>
+        <name>技师</name>
+        <parent>
+          <code>260</code>
+        </parent>
+      </entry>
+      <entry>
+        <code>265</code>
+        <name>技士</name>
+        <parent>
+          <code>260</code>
+        </parent>
+      </entry>
+
+    </entries>
+  </dict>
+</dicts>

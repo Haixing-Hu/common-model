@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了处方流转
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>prescription_dirction</code>
+    <name>处方流转表</name>
+    <standard-doc>xxx</standard-doc>
+    <standard-code>XXX</standard-code>
+    <entries>
+      <entry>
+        <code>01</code>
+        <name>院内处方</name>
+      </entry>
+      <entry>
+        <code>02</code>
+        <name>院外处方</name>
+      </entry>
+      <entry>
+        <code>99</code>
+        <name>其他处方单</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

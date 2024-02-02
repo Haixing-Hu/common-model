@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <!-- 全局 ErrorMessageFormatter，用于格式化错误消息 -->
+  <bean id="message-formatter" class="ltd.qubit.model.util.MessageFormatter">
+    <constructor-arg name="locale">
+      <bean class="java.util.Locale">
+        <constructor-arg index="0" value="zh"/>
+        <constructor-arg index="1" value="CN"/>
+      </bean>
+    </constructor-arg>
+    <constructor-arg name="messageSource">
+      <bean class="ltd.qubit.commons.i18n.message.ReloadableResourceBundleMessageSource">
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="cacheSeconds" value="0" />
+        <property name="basenames">
+          <array>
+            <value>classpath:/i18n/common-model/error</value>
+            <value>classpath:/i18n/common-model/value</value>
+          </array>
+        </property>
+      </bean>
+    </constructor-arg>
+  </bean>
+</beans>

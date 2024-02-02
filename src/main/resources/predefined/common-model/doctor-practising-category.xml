@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了医师执业类别编码表
+  ~
+  ~   《江苏省医疗服务监管系统接入规范v1.12》
+  ~    8.5 医师执业类别编码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>doctor_practising_category</code>
+    <name>医师执业类别编码表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范v1.12</standard-doc>
+    <standard-code>8.5</standard-code>
+    <entries>
+      <entry>
+        <code>1</code>
+        <name>临床</name>
+      </entry>
+      <entry>
+        <code>2</code>
+        <name>口腔</name>
+      </entry>
+      <entry>
+        <code>3</code>
+        <name>公共卫生</name>
+      </entry>
+      <entry>
+        <code>4</code>
+        <name>中医</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

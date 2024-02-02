@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了处方分类代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>prescription_category</code>
+    <name>处方分类表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范V1.12</standard-doc>
+    <standard-code>5.25</standard-code>
+    <entries>
+      <entry>
+        <code>01</code>
+        <name>西药处方单</name>
+      </entry>
+      <entry>
+        <code>02</code>
+        <name>中药处方单</name>
+      </entry>
+      <entry>
+        <code>03</code>
+        <name>保健品处方单</name>
+      </entry>
+      <entry>
+        <code>99</code>
+        <name>其他处方单</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

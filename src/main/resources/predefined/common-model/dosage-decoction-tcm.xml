@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了中药煎煮方法代码表
+  ~
+  ~   《江苏省医疗服务监管系统接入规范V1.12》
+  ~    表8.16 中药煎煮方法代码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>dosage_decoction_tcm</code>
+    <name>中药煎煮方法代码表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范V1.12</standard-doc>
+    <standard-code>8.16</standard-code>
+    <entries>
+      <entry>
+        <code>01</code>
+        <name>先煎</name>
+      </entry>
+      <entry>
+        <code>02</code>
+        <name>后下</name>
+      </entry>
+      <entry>
+        <code>03</code>
+        <name>包煎</name>
+      </entry>
+      <entry>
+        <code>04</code>
+        <name>另煎</name>
+      </entry>
+      <entry>
+        <code>05</code>
+        <name>捣碎</name>
+      </entry>
+      <entry>
+        <code>06</code>
+        <name>烊化</name>
+      </entry>
+      <entry>
+        <code>07</code>
+        <name>冲服</name>
+      </entry>
+      <entry>
+        <code>08</code>
+        <name>兑服</name>
+      </entry>
+      <entry>
+        <code>99</code>
+        <name>其他</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>

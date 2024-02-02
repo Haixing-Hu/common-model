@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    Copyright (c) 2017 - 2022.
+  ~    Nanjing Smart Medical Investment Operation Service Co. Ltd.
+  ~
+  ~    All rights reserved.
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~
+  ~    本文档定义了医师执业范围编码表
+  ~
+  ~   《江苏省医疗服务监管系统接入规范v1.12》
+  ~    8.6 医师执业范围编码表
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<dicts>
+  <dict>
+    <code>doctor_practising_scope</code>
+    <name>医师执业范围编码表</name>
+    <standard-doc>江苏省医疗服务监管系统接入规范v1.12</standard-doc>
+    <standard-code>8.6</standard-code>
+    <entries>
+      <entry>
+        <code>A11</code>
+        <name>内科专业</name>
+      </entry>
+      <entry>
+        <code>A12</code>
+        <name>外科专业</name>
+      </entry>
+      <entry>
+        <code>A13</code>
+        <name>妇产科专业</name>
+      </entry>
+      <entry>
+        <code>A14</code>
+        <name>儿科专业</name>
+      </entry>
+      <entry>
+        <code>A15</code>
+        <name>眼耳鼻咽喉科专业</name>
+      </entry>
+      <entry>
+        <code>A16</code>
+        <name>皮肤病与性病专业</name>
+      </entry>
+      <entry>
+        <code>A17</code>
+        <name>精神卫生专业</name>
+      </entry>
+      <entry>
+        <code>A18</code>
+        <name>职业病专业</name>
+      </entry>
+      <entry>
+        <code>A19</code>
+        <name>医学影像和放射治疗专业</name>
+      </entry>
+      <entry>
+        <code>A20</code>
+        <name>医学检验、病理专业</name>
+      </entry>
+      <entry>
+        <code>A21</code>
+        <name>全科医学专业</name>
+      </entry>
+      <entry>
+        <code>A22</code>
+        <name>急救医学专业</name>
+      </entry>
+      <entry>
+        <code>A23</code>
+        <name>康复医学专业</name>
+      </entry>
+      <entry>
+        <code>A24</code>
+        <name>预防保健专业</name>
+      </entry>
+      <entry>
+        <code>A25</code>
+        <name>特种医学与军事医学专业</name>
+      </entry>
+      <entry>
+        <code>A26</code>
+        <name>计划生育技术服务专业</name>
+      </entry>
+      <entry>
+        <code>A31</code>
+        <name>口腔专业</name>
+      </entry>
+      <entry>
+        <code>A41</code>
+        <name>公共卫生类别专业</name>
+      </entry>
+      <entry>
+        <code>A51</code>
+        <name>中医专业</name>
+      </entry>
+      <entry>
+        <code>A52</code>
+        <name>中西医结合专业</name>
+      </entry>
+      <entry>
+        <code>A53</code>
+        <name>蒙医专业</name>
+      </entry>
+      <entry>
+        <code>A54</code>
+        <name>藏医专业</name>
+      </entry>
+      <entry>
+        <code>A55</code>
+        <name>维医专业</name>
+      </entry>
+      <entry>
+        <code>A56</code>
+        <name>傣医专业</name>
+      </entry>
+      <entry>
+        <code>A57</code>
+        <name>朝医专业</name>
+      </entry>
+      <entry>
+        <code>A58</code>
+        <name>壮医专业</name>
+      </entry>
+      <entry>
+        <code>A59</code>
+        <name>省级卫生行政部门规定的其他专业</name>
+      </entry>
+    </entries>
+  </dict>
+</dicts>
